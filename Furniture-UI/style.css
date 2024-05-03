@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman",sans-serif;
+}
+.main-container{
+    height:100vh;
+    width:100%;
+    background-color: #FFF5EB;
+}
+.nav{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10px;
+    margin-left: 60px;
+    /* background-color: #FFF5EB; */
+    border: 2.5px solid rgba(57, 56, 56, 0.389);
+}
+.nav-left{
+    display: flex;
+    gap: 10px;
+}
+.nav p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    /* font-size: 10px; */
+}
+.container{
+    width: 90%;
+    height:80vh;
+    border: 2px solid rgba(137, 132, 132, 0.873);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #FFF5EB;
+}
+.text-part{
+    width: 45%;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.text-part h1{
+    margin-top: 20px;
+}
+.text-part p{
+    margin-top: 20px;
+}
+.img-part{
+    width: 55%;
+    margin-top: 40px;
+}
+#img-1{
+    margin-left: 200px;
+}
+.img-part2{
+    margin-top: 100px;   
+}
+.img-part2 img{
+    border-radius: 10px; 
+    margin-left: 150px;   
+}
+.price{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
+.price p{
+    font-weight: 700px;
+    margin: none;
+}
+.price button{
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: none;
+    margin-left: 240px;
+    margin-top: 10px;
+    
+
+}
+.cart{
+    margin-top: 20px;
+}
+#cart-1{
+    height: 33px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: none;
+
+}
+#cart-2{
+    height: 33px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: #3A502F;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.add{
+    margin-top: 30px;
+}
+.container2{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(137, 132, 132, 0.873);
+    /* border: 1px solid black; */
+    margin-left: 60px;
+    background-color: #FFF5EB;
+}
+.container2 h3{
+    margin-top: 20px;
+    margin-right: 40px;
+}
